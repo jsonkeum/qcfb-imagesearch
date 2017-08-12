@@ -1,0 +1,30 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+#app {
+  max-width:1000px;
+}
+#header {
+  background:#ccffcc;
+  padding:20px;
+  margin-top:16px;
+}
+.blackbox {
+  background:#333333;
+  padding:20px;
+  color:#ccffcc;
+  font-family:monospace;
+  width:90%;
+  word-break: break-all;
+}
+.comment {
+  color:lightgray;
+}
+footer {
+  height:100px;
+  padding-top:20px;
+  text-align:center;
+}
+.key {
+  color:#ff9966;
+}

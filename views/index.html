@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Search API</title>
+    <meta name="description" content="An API to search for images on the web">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="container-fluid" id="app">
+        <div id="header">
+            <h1 class="text-center">Image Search API</h1>
+            <p class="text-right">by QuanchiFootball</p>
+        </div>
+        <br>
+        <p>
+            This is a simple API that will take a search query and generate a list of images from the web.
+        </p>
+        <br>
+        <h4 style="font-weight:bold">Example</h4>
+        <div class="well container blackbox">
+          <p>https://qcfb-imagesearch.glitch.me/api/dogs</p>
+        </div>
+        <p>Returns an array of ten objects containing the following:</p>
+        <div class="well container blackbox">
+          {
+          <br>
+            <span class="key">"url"</span>:"http://cdn3-www.dogtime.com/assets/uploads/gallery/goldador-dog-breed-pictures/puppy-1.jpg",
+          <br>
+            <span class="key">"snippet"</span>:"Goldador Dog Breed Information, Pictures, Characteristics & Facts ...",
+          <br>
+            <span class="key">"thumbnail"</span>:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMnUZX0tOX2N4907DAsF__q78__Fgb6PqCB1dQHv_ghTWNfw4DsEtMvH8",
+          <br>
+            <span class="key">"context"</span>:"http://dogtime.com/dog-breeds/goldador"
+          <br>
+          }
+        </div>
+        <p>
+          API can also take an offset query in the form of an integer value.
+        </p>
+        <div class="well container blackbox">
+          <p>https://qcfb-imagesearch.glitch.me/api/how to bake pizza?offset=10</p>
+        </div>
+        <br>
+        <h4 style="font-weight:bold">History</h4>
+        <div class="well container blackbox">
+            https://qcfb-imagesearch.glitch.me/history
+        </div>
+        <p>
+          Returns an array of maximum ten objects containing prior history records:
+        </p>
+        <div class="well container blackbox">
+          {
+          <br>
+            <span class="key">"term"</span>:"dogs",
+          <br>
+            <span class="key">"time"</span>:"Sat Aug 12 2017 05:05:26 GMT+0000 (UTC)"
+          <br>
+          }
+        </div>
+        <footer>
+            <em>I wrote this API as part of FreeCodeCamp's Back-end development curriculum.<br>
+            Check out the source on my <a href="https://quanchifootball.github.io" target="_blank">Github page</a></em>
+        </footer>
+    </div>
+  </body>
+</html>

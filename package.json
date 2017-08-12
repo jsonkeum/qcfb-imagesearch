@@ -1,0 +1,23 @@
+{
+  "name": "qcfb-imagesearch",
+  "version": "1.0.0",
+  "description": "FCC - Image Search API Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quanchifootball/qcfb-imagesearch.git"
+  },
+  "author": "quanchifootball",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quanchifootball/qcfb-imagesearch/issues"
+  },
+  "homepage": "https://github.com/quanchifootball/qcfb-imagesearch#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31"
+  }
+}
